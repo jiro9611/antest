@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]> <html class="lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="lt-ie9" lang="en"> <![endif]-->
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
+<html class="no-js" lang="en" ng-app >
+
+<head>
+  <!--F5-->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Agrilus Beta</title>
+
+
+  <!-- Bootstrap Core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- MetisMenu CSS -->
+  <link href="css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+
+  <!-- Timeline CSS -->
+  <link href="css/plugins/timeline.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="css/sb-admin-2.css" rel="stylesheet">
+
+  <!-- Morris Charts CSS -->
+  <link href="css/plugins/morris.css" rel="stylesheet">
+
+  <!-- Custom Fonts -->
+  <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+
+  <link rel="stylesheet" type="text/css" href="css/style.css" title="default" />
+  <link rel="alternate stylesheet" type="text/css" href="css/style-blur.css" title="alternate" />
+
+  <!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <!-- google font -->
+  <link href='http://fonts.googleapis.com/css?family=Ek+Mukta:200' rel='stylesheet' type='text/css'>
+  <!-- <link href='http://fonts.googleapis.com/css?family=Ek+Mukta:600' rel='stylesheet' type='text/css'> -->
+  <script src="js/myScript.js"></script>
+  <script type="text/javascript" src="js/styleswitcher.js"></script>
+
+
+</head>
+<body onLoad="load_em()">
+  <section class="container">
+    <div class="sysName">
+      <h1>Agrilus<small id="sysSub2">Beta</small><br><small id="sysSub">Practitioner Management System</small></h1>
+    </div>
+
+    <form name="login">
+      <div class="login">
+        <h1>Login</h1>
+        <form method="post" action="index-bu2014-08-07.html">
+          <p><input type="text" id="username" value="" placeholder="Username or email" ></p>
+          <p><input type="password" id="password" value="" placeholder="password" ></p>
+          <p class="remember_me">
+            <label>
+              <input type="checkbox" id="check" name="remember_me" >
+              Remember me on this computer
+            </label>
+          </p>
+
+          <p class="xxxx"><input  onclick="pasuser(this.form)" type="button" value="Login" ></p>
+          <!-- <p class="xxxx"><input  onclick="rememberMe()" type="button" value="Login1" ></p> -->
+
+        </form>
+      </div>
+    </form>  
+
+    <div class="login-help">
+      <p>Forgot your password? <a href="index.html">Click here to reset it</a>.</p>
+    </div>
+
+
+
+  </section>
+
+  <div class="aboutAgrilus">
+    <span>
+        © 2012–2015 <a href="#" target="_blank">Agrilus.com</a> -
+        <a href="#" target="_blank">About</a> -
+        <a href="#" target="_blank">Contact</a>
+    </span>
+
+
+
+
+  </div>
+
+<!-- <button id="stylesheet1" > Default blue Style Sheet </button>
+<button id="stylesheet2" > blur Style Sheet </button> -->
+<div id="styleChange" >
+  
+<!-- <a class="aco" href="#" onclick="setActiveStyleSheet('default'); return false;">Style to default</a>
+<a class="aco" href="#" onclick="setActiveStyleSheet('alternate'); return false;">Style to blur</a> -->
+
+<input type="button" class="aco" href="#" onclick="setActiveStyleSheet('default'); return false;" value="Style BULE">
+<input type="button" class="aco" href="#" onclick="setActiveStyleSheet('alternate'); return false;" value="Style BLUR" >
+
+</div>
+
+  <!-- <section class="about">
+    <p class="about-links">
+      <a href="http://www.cssflow.com/snippets/login-form" target="_parent">View Article</a>
+      <a href="http://www.cssflow.com/snippets/login-form.zip" target="_parent">Download</a>
+    </p>
+    <p class="about-author">
+      &copy; 2012&ndash;2013 <a href="http://thibaut.me" target="_blank">Thibaut Courouble</a> -
+      <a href="http://www.cssflow.com/mit-license" target="_blank">MIT License</a><br>
+      Original PSD by <a href="http://www.premiumpixels.com/freebies/clean-simple-login-form-psd/" target="_blank">Orman Clark</a>
+  </section> -->
+
+
+
+  <!-- jQuery Version 1.11.0 -->
+  <script src="js/jquery-1.11.0.js"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+
+  <!-- Metis Menu Plugin JavaScript -->
+  <script src="js/plugins/metisMenu/metisMenu.min.js"></script>
+
+  <!-- Morris Charts JavaScript -->
+  <script src="js/plugins/morris/raphael.min.js"></script>
+  <script src="js/plugins/morris/morris.min.js"></script>
+  <script src="js/plugins/morris/morris-data.js"></script>
+
+  <!-- Custom Theme JavaScript -->
+  <script src="js/sb-admin-2.js"></script>
+
+  <!-- this is the url for login cookie  -->
+  <script src="http://wcetdesigns.com/assets/javascript/jquery.js"></script>
+  <script src="http://wcetdesigns.com/assets/javascript/jquery/cookie-plugin.js"></script>
+
+
+
+
+</body>
+</html>
