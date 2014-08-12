@@ -394,6 +394,9 @@
                             <input type="text" ng-model="situation" placeholder="Situation" ><br />
 
                             <button type="button" ng-click="addPerson()">Add Person</button>
+
+                            
+
                         </fieldset>
                     </div>
                 </div>
@@ -449,6 +452,7 @@
                                             <th>Title(s)</th>
                                             <th>Order</th>
                                             <th>Situation</th>
+                                            <th>Remove</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -458,6 +462,7 @@
                                             <td>{{ person.title }}</td>
                                             <td class="center">{{ person.order }}</td>
                                             <td class="center">{{ person.situation }}</td>
+                                            <td><button type="button" ng-click="removePerson($index)">Remove Person</button></td>
                                         </tr>
                                     </tbody>
                                 </table>
